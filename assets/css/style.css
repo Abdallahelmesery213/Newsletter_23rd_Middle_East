@@ -15,8 +15,12 @@
     src: url(./../fonts/Merriweather-Regular.ttf);
 }
 @font-face{
+    font-family: cinzelBdFont;
+    src: url(./../fonts/CinzelDecorative-Bold.ttf);
+}
+@font-face{
     font-family: arabicFont;
-    src: url(./../fonts/NotoKufiArabic-SemiBold.ttf);
+    src: url(./../fonts/GE\ Hili\ Book.otf);
 }
 *{
     font-family: merriRegFont;
@@ -29,7 +33,7 @@ ul{
 
 header h2 {
     line-height: 50px;
-    font-family: merriBoldFont;
+    font-family: cinzelBdFont;
 }
 header .header-en h2{
     font-size: 50px;
@@ -47,7 +51,7 @@ header .header-en h2 .span2, header .header-en .h4{
 }
 header .header-ar h2{
     font-family: arabicFont;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
 }
 header .header-ar, header .header-en{
@@ -72,8 +76,8 @@ header .address-header{
     font-size: 18px;
 }
 header .header-bottom{
-    border-top: 2px solid #d0d2d3;
-    margin-top: -8%;
+    border-top: 3px solid #d0d2d3;
+    margin-top: -10%;
     padding-top: 20px;
 }
 header .header-bottom p{
@@ -239,26 +243,26 @@ footer a.btn-danger{
         display: none;
     }
     header .header-ar h2{
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 30px;
+        line-height: 35px;
         font-weight: normal;
     }
     header .header-en h2{
         font-size: 20px !important;
-        line-height: 30px;
+        line-height: 35px;
     }
     header .header-en h2 sup {
         font-size: 20px;
     }
     header .header-bottom {
-        margin-top: 10%;
+        margin-top: 5%;
     }
     header .brdr {
         margin-left: 20px;
         width: 4px;
     }
     header .address-header {
-        font-size: 15px;
+        font-size: 12px;
     }
     .section1 .section-footer p {
         bottom: -5px;
